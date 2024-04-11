@@ -4,3 +4,35 @@ padding: 0;
 box-sizing: border-box;
 }
 
+body{
+    
+}
+
+.flex{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    background-color: hsl(24.71deg 100% 50%);
+    color: white;
+    padding: 1.5rem 10rem;
+    font-family: sans-serif;
+   
+}
+
+.container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li{
+    margin: .5rem;
+}
+
+.logo >img{
+   width: 10rem;
+}
