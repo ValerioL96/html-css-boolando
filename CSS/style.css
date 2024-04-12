@@ -158,7 +158,7 @@ footer{
 }
 
 footer section.boolando nav>ul li{
-    flex-direction: row;
+    display: inline-block;
     margin: .5rem;
 }
 
