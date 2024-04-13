@@ -79,6 +79,7 @@ section.products >article{
 }
 
 article.product >img{
+    display: inline-block;
     height: 450px;
     width: 100%;
     object-fit:cover;
@@ -89,6 +90,11 @@ article.product >img.img-b{
     height: 450px;
     width: 100%;
     object-fit:cover;
+}
+
+article.product:hover> img{
+    display: none;
+    
 }
 
 article.product:hover> img.img-b{
